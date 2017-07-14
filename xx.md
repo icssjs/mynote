@@ -1,4 +1,4 @@
-`javascfipt 
+```javascfipt 
 use strict";
 
 (function ($) {
@@ -30,4 +30,4 @@ use strict";
             hold_timer: null,
             tap_timer: null
         };
-`
+```
