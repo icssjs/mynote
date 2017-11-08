@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>rotate 和 rotate3d 相关演示</title>
+    <link rel="stylesheet" href="common.css">
+    <style>
+        .perspective {
+            width: 1000px;
+            height: 300px;
+            border: 1px solid #666;
+            perspective: 1000px;
+        }
+
+     
+
+        .perspective .son {
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            background: #eee;
+            transform: rotateX(45deg);
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="perspective">
+        <div class="son"></div>
+        <div class="son"></div>
+        <div class="son"></div>
+        <div class="son"></div>
+    </div>
+
+
+    <div class="box">
+        <h3>rotate位置演示</h3>
+        <div class="area">
+            <div class="x-axis"></div>
+            <div class="y-axis"></div>
+            <div class="z-axis"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

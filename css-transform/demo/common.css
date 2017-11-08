@@ -1,0 +1,29 @@
+.area{
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.area .x-axis{
+    width: 400px;
+    height: 1px;
+    background: #666;
+    position: absolute;
+    left:0px;
+    top:150px;
+  
+}
+.area .x-axis::before{
+    content: '-X';
+    float: left;
+}
+.area .x-axis::after{
+    content: 'X';
+    float: right;
+}
+.area .y-axis{
+    width: 1px;
+    height: 300px;
+    background: #666;
+    position: absolute;
+    left:200px;
+}
